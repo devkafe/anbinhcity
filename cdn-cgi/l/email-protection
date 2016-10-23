@@ -10,12 +10,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 <meta name="robots" content="noindex, nofollow" />
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="http://anbinh.city/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
 <!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
 <style type="text/css">body{margin:0;padding:0}</style>
 <!--[if lte IE 9]><script type="text/javascript" src="/cdn-cgi/scripts/jquery.min.js"></script><![endif]-->
-<!--[if gte IE 10]><!--><script type="text/javascript" src="http://anbinh.city/cdn-cgi/scripts/zepto.min.js"></script><!--<![endif]-->
-<script type="text/javascript" src="http://anbinh.city/cdn-cgi/scripts/cf.common.js"></script>
+<!--[if gte IE 10]><!--><script type="text/javascript" src="/cdn-cgi/scripts/zepto.min.js"></script><!--<![endif]-->
+<script type="text/javascript" src="/cdn-cgi/scripts/cf.common.js"></script>
 
 </head>
 <body>
@@ -39,9 +39,9 @@
               <div class="rail">
                   <div class="panel">
                       <ul class="nobullets">
-                        <li><a class="modal-link-faq" href="email-protection#" onClick="cloudFlare.faq('en_US', ['HowHarvest']);return false;">How do spammers get email addresses?</a></li>
-                        <li><a class="modal-link-faq" href="email-protection#" onClick="cloudFlare.faq('en_US', ['HowEmailProtect']);return false;">How does CloudFlare protect email addresses on website from spammers?</a></li>
-                        <li><a class="modal-link-faq" href="email-protection#" onClick="cloudFlare.faq('en_US', ['CanISignUpEmailProtect']);return false;">Can I sign up for CloudFlare?</a></li>
+                        <li><a class="modal-link-faq" href="#" onClick="cloudFlare.faq('en_US', ['HowHarvest']);return false;">How do spammers get email addresses?</a></li>
+                        <li><a class="modal-link-faq" href="#" onClick="cloudFlare.faq('en_US', ['HowEmailProtect']);return false;">How does CloudFlare protect email addresses on website from spammers?</a></li>
+                        <li><a class="modal-link-faq" href="#" onClick="cloudFlare.faq('en_US', ['CanISignUpEmailProtect']);return false;">Can I sign up for CloudFlare?</a></li>
                     </ul>
                 </div>
               </div>
@@ -52,7 +52,7 @@
 
       <div class="cf-error-footer cf-wrapper">
   <p>
-    <span class="cf-footer-item">CloudFlare Ray ID: <strong>2f63e0dc04ff17da</strong></span>
+    <span class="cf-footer-item">CloudFlare Ray ID: <strong>2f647872124d30d8</strong></span>
     <span class="cf-footer-separator">&bull;</span>
     <span class="cf-footer-item"><span data-translate="your_ip">Your IP</span>: 118.70.72.112</span>
     <span class="cf-footer-separator">&bull;</span>
