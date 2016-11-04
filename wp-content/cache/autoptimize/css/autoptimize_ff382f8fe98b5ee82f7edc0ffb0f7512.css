@@ -227,3 +227,17 @@ div{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLo
 #pg-916-1, #pgc-6-21-0, #pgc-6-2-0 {
 	display: none;
 }
+@media (max-width: 720px) {
+  #g-50mk6c.g-7q1cc5 {
+  	width: auto !important;
+  }
+  #g-50mk6c.gewrkla {
+  	right: 0 !important;
+  }
+  #g-50mk6c .gh3kzuw {
+  	display: block !important;
+  }
+  #g-50mk6c .g6jnhl0 .gh3kzuw {
+  	width: 100% !important;
+  }
+}
