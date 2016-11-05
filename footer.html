@@ -62,18 +62,23 @@
             e.preventDefault();
             var email = jQuery('#gscw_email_input').val();
             var phone = jQuery('#gscw_name_input').val();
-            jQuery.ajax({
-                method: 'POST',
-                url : 'https://docs.google.com/forms/d/e/1FAIpQLSdj1_hC143Bt0Gxx2MY7MMyiJ-goH7JbcOvKZeqywKHGzbC2Q/formResponse',
-                type: 'jsonp',
-                data: {'entry.1647044500': email, 'entry.2071444482': phone, 'entry.304419929': 'anbinhcity'},
-                success: function (res) { //it's never success :D
-                },
-                error: function(err) {
-                    console.log(err);
-                    alert('Thành công!');
-                }
-            });
+            if (email == '' || phone == '')
+                alert('Bạn vui lòng nhập email và số điện thoại!')
+            else {
+                jQuery.ajax({
+                    method: 'POST',
+                    url : 'https://docs.google.com/forms/d/e/1FAIpQLSdj1_hC143Bt0Gxx2MY7MMyiJ-goH7JbcOvKZeqywKHGzbC2Q/formResponse',
+                    type: 'jsonp',
+                    data: {'entry.1647044500': email, 'entry.2071444482': phone, 'entry.304419929': 'anbinhcity'},
+                    success: function (res) { //it's never success :D
+                    },
+                    error: function(err) {
+                        alert('Thành công!');
+                        windoww.location = '/thankyou.html';
+                    }
+                });
+            }
+            
         });
 
         jQuery('#dd-submit2').click(function(e) {
@@ -81,7 +86,6 @@
             var name = jQuery('#lh-name').val();
             var email = jQuery('#lh-email').val();
             var phone = jQuery('#lh-phone').val();
-            console.log('calling');
             jQuery.ajax({
                 method: 'POST',
                 url : 'https://docs.google.com/forms/d/e/1FAIpQLSdj1_hC143Bt0Gxx2MY7MMyiJ-goH7JbcOvKZeqywKHGzbC2Q/formResponse',
@@ -91,9 +95,14 @@
                 },
                 error: function(err) {
                     // $('.newsletters-message').html('Đăng kí email thành công').show();
-                    alert('Thành công!');
+                    // alert('Thành công!');
+                    windoww.location = '/thankyou.html';
                 }
             });
+        });
+
+        jQuery('.gaxp75z').click(function() {
+            jQuery('#g-50mk6c').fadeOut();
         });
     });
 </script>
